@@ -10,8 +10,8 @@ const count = 0;
 console.log(count);
 const user = {
 
-"id" : "user01",
-"name" : "Hong"
+  "id": "user01",
+  "name": "Hong"
 
 }
 

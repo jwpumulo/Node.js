@@ -22,7 +22,7 @@ msg();
 // 2) Rest parameter
 const plus = function (x, y, ...rests) {
   let result = x + y;
-  for (let rest of rests) {
+  for (let rests of args) {
     result += rest;
 
   }
@@ -30,6 +30,6 @@ const plus = function (x, y, ...rests) {
 
 }
 
-console.log(plus(1,2)); //3
-console.log(plus(1,2,3,4,5)); //15
-console.log(plus(1,2,3,4,5,6,7,8,9,10)); //22
+console.log(plus(1, 2)); //3
+console.log(plus(1, 2, 3, 4, 5)); //15
+console.log(plus(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); //22
